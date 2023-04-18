@@ -7,7 +7,7 @@ baseurl: ''
 email: arunmsudharsan@gmail.com
 cover: https://arunm619.github.io/img/og.png
 logo: https://arunm619.github.io/img/emojis/technologist.png
-resume: https://arunm619.github.io/resume.pdf
+resume: https://arunm619.github.io/resume
 social:
   - title: email
     url: mailto:arunmsudharsan@gmail.com
