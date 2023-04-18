@@ -1,7 +1,26 @@
+- name: Sound Meter
+  url: https://play.google.com/store/apps/details?id=dev.arunm619.soundmeter
+  code: https://play.google.com/store/apps/details?id=dev.arunm619.soundmeter
+  description: Bought a new WearOS Watch from Samsung. Got curious about WearOS development and built a weekend project where the user can measure the decibels of sound pressure level in their surroundings. It's now Live on Playstore.
+  used:
+    - thing: WearOS
+    - thing: Kotlin
+    - thing: Android
+    - thing: Play store
+
+- name: WikiMedia - OSS Contributions
+  url: https://github.com/wikimedia/apps-android-wikipedia
+  code: https://github.com/wikimedia/apps-android-wikipedia
+  description: Helped the Wikimedia android app to achieve their 100% kotlin tag by migrating few java files to Kt. I like to use open source projects and thats one of the main reasons why I love to contribute to them. I learn a lot from these OSS.
+  used:
+    - thing: WikiMedia
+    - thing: Kotlin
+    - thing: Android
+
 - name: Coding Problems
   url: https://github.com/Arunm619/coding
   code: https://github.com/Arunm619/coding
-  description: My Repo of solutions to various programming problems in sites like Leetcode and hackerrank.
+  description: My repository of solutions to various programming problems in sites like Leetcode and hackerrank.
   used:
     - thing: Algorithms
     - thing: Data Structures
