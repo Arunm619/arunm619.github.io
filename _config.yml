@@ -1,6 +1,6 @@
 # Site settings
-name: Arun sudharsan
-title: Arun sudharsan | Software Engineer
+name: Arun Sudharsan
+title: Arun Sudharsan | Software Engineer
 description: Software engineer passionate in problem solving.
 url: https://arunm619.github.io/
 baseurl: ''
@@ -12,7 +12,7 @@ social:
   - title: email
     url: mailto:arunmsudharsan@gmail.com
   - title: twitter
-    url: https://twitter.com/ASudharsan
+    url: https://twitter.com/arunm_619
   - title: instagram
     url: https://instagram.com/arunm619
   - title: github

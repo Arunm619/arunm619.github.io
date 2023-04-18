@@ -1,6 +1,7 @@
 languages:
-  - item: C++
   - item: Kotlin
-  - item: Java
-  - item: Python
+  - item: Android SDK
+  - item: C++
   - item: SQL
+  - item: Python
+
