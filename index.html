@@ -1,14 +1,204 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arun Sudharsan - Android Engineer</title>
+<meta name="description" content="Arun Sudharsan is an Android engineer (SDE-3) at Meesho in Bangalore. 7+ years building Android products at Meesho, Amazon and Freshworks.">
+<meta property="og:title" content="Arun Sudharsan - Android Engineer">
+<meta property="og:description" content="Android engineer at Meesho. Previously Amazon and Freshworks. Builds apps for phones and Wear OS.">
+<meta property="og:url" content="https://arunm619.github.io/">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5f6368;
+    --accent: #0b57d0;
+    --rule: #e5e7eb;
+    --tag-bg: #f1f3f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #8ab4f8;
+      --rule: #2d2f31;
+      --tag-bg: #262829;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 660px; margin: 0 auto; padding: 64px 24px 80px; }
+  header { margin-bottom: 56px; }
+  .me { display: flex; align-items: center; gap: 20px; }
+  .me img { width: 76px; height: 76px; border-radius: 50%; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .role { color: var(--muted); margin: 0; font-size: 16px; }
+  .links { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+  .links a { color: var(--accent); text-decoration: none; font-size: 15px; }
+  .links a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 48px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 14px; }
+  .job { margin-bottom: 24px; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .job-head .where { font-weight: 600; }
+  .job-head .where a { color: inherit; text-decoration: none; }
+  .job-head .where a:hover { color: var(--accent); }
+  .job-head .when { color: var(--muted); font-size: 14px; white-space: nowrap; }
+  .job .title { color: var(--muted); font-size: 15px; margin: 0 0 6px; }
+  .job p.desc { margin: 0; font-size: 16px; }
+  .project { margin-bottom: 20px; }
+  .project .name { font-weight: 600; }
+  .project .name a { color: var(--accent); text-decoration: none; }
+  .project .name a:hover { text-decoration: underline; }
+  .project p { margin: 2px 0 0; font-size: 16px; }
+  .tags { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags span {
+    background: var(--tag-bg); color: var(--muted);
+    font-size: 12.5px; padding: 2px 10px; border-radius: 999px;
+  }
+  ul.plain { margin: 0; padding-left: 20px; }
+  ul.plain li { margin-bottom: 6px; }
+  footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 14px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 480px) {
+    .page { padding: 40px 20px 64px; }
+    .job-head { flex-direction: column; gap: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
 
-<div id="site">
-  {% include switch.html %}
-  {% include intro.html %}
-  {% include background.html %}
-  {% include skills.html %}
-  {% include experience.html %}
-  {% include other-projects.html %}
-  {% include footer.html %}
-  {% include top-button.html %}
+<header>
+  <div class="me">
+    <img src="https://avatars.githubusercontent.com/u/20639352?v=4" alt="Arun Sudharsan" width="76" height="76">
+    <div>
+      <h1>Arun Sudharsan</h1>
+      <p class="role">Android engineer &middot; SDE-3 at Meesho &middot; Bangalore, India</p>
+    </div>
+  </div>
+  <nav class="links">
+    <a href="mailto:arunmsudharsan@gmail.com">Email</a>
+    <a href="https://github.com/Arunm619">GitHub</a>
+    <a href="https://www.linkedin.com/in/arunm619/">LinkedIn</a>
+    <a href="https://x.com/Arunm_619">X</a>
+    <a href="/resume.pdf">Resume</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I'm a mobile engineer with 7+ years of experience building Android products at Meesho, Amazon and Freshworks. I work mostly with Kotlin, Coroutines and Jetpack Compose, and I like taking products from 0 to 1 with extra attention to detail.</p>
+  <p>Outside of work I build and publish my own apps for Android and Wear OS, and contribute to open source.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="where"><a href="https://www.meesho.com/">Meesho</a></span>
+      <span class="when">Nov 2021 &ndash; Present</span>
+    </div>
+    <p class="title">Software Development Engineer 3 (since Jan 2024) &middot; previously SDE-2 &middot; Remote</p>
+    <p class="desc">Own transaction flows in the Meesho app: built the multi-supplier cart, streamlined the Buy Now flow, custom animated buttons, and integrated the Juspay bank-offers module.</p>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="where"><a href="https://www.amazon.com/">Amazon</a></span>
+      <span class="when">Jan 2020 &ndash; Oct 2021</span>
+    </div>
+    <p class="title">Software Development Engineer 1 &middot; Remote</p>
+    <p class="desc">Shipped FireOS system applications used on millions of Fire tablets: built automatic Wi-Fi reconnect after router password changes, and upgraded Storage Manager and Wi-Fi Settings from Android 9 to 11.</p>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="where"><a href="https://www.freshworks.com/">Freshworks</a></span>
+      <span class="when">Jan 2019 &ndash; Dec 2019</span>
+    </div>
+    <p class="title">Software Development Engineer (intern, then full-time)</p>
+    <p class="desc">Worked on the Freshcaller Android app: added call notes and a country-code picker, migrated background work to WorkManager, and shipped single sign-on during internship.</p>
+  </div>
+</section>
+
+<section id="apps">
+  <h2>Apps I've built</h2>
+
+  <div class="project">
+    <span class="name"><a href="https://play.google.com/store/apps/details?id=dev.nebulae.ambience">Ambience &mdash; Focus, Relax, Sleep</a></span>
+    <p>A sound-scape app with 100+ sounds, a mixer, binaural beats, colored noise, Pomodoro and a sleep timer. No account, no data collected, works offline. Published on Google Play as Nebulae Apps.</p>
+    <div class="tags"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+  </div>
+
+  <div class="project">
+    <span class="name"><a href="https://play.google.com/store/apps/details?id=dev.arunm619.soundmeter">Sound Meter</a></span>
+    <p>A Wear OS app that measures ambient sound levels in decibels, built after getting curious about watch development. Live on Google Play.</p>
+    <div class="tags"><span>Wear OS</span><span>Kotlin</span><span>Jetpack Compose</span></div>
+  </div>
+
+  <div class="project">
+    <span class="name"><a href="https://arunm619.github.io/spaceshooter-landing/">Space Shooter</a></span>
+    <p>An arcade space shooter designed for the round watch face: auto-fire, crown, touch or tilt controls, escalating waves, and a local hi-score. No ads, no in-app purchases, no data collected.</p>
+    <div class="tags"><span>Wear OS</span><span>Kotlin</span><span>Game</span></div>
+  </div>
+</section>
+
+<section id="oss">
+  <h2>Open source</h2>
+  <ul class="plain">
+    <li>Contributor to the <a href="https://github.com/wikimedia/apps-android-wikipedia">Wikimedia Wikipedia Android app</a> &mdash; helped the codebase reach 100% Kotlin by migrating Java files.</li>
+    <li>More experiments and side projects on <a href="https://github.com/Arunm619">GitHub</a>.</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="tags">
+    <span>Kotlin</span><span>Android SDK</span><span>Jetpack Compose</span><span>Coroutines</span><span>Flow</span><span>RxJava</span><span>Java</span><span>Wear OS</span><span>AOSP / FireOS</span><span>SQL</span>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="job">
+    <div class="job-head">
+      <span class="where">Anna University, Chennai</span>
+      <span class="when">2015 &ndash; 2019</span>
+    </div>
+    <p class="title">B.E. Computer Science and Engineering</p>
+  </div>
+</section>
+
+<footer>
+  <p>Reach me at <a href="mailto:arunmsudharsan@gmail.com">arunmsudharsan@gmail.com</a> &middot; <a href="/resume.pdf">Resume (PDF)</a></p>
+</footer>
+
 </div>
+</body>
+</html>
